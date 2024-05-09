@@ -24,16 +24,7 @@ class Lighting extends Connection
                 $lamp_zone = $this->getZoneId($element[3]);
                 $lamp_on=1;
 
-                if ($lamp_model==1){
-                    $lamp_model== 600;
-                }elseif($lamp_model==2){
-                    $lamp_model== 400;
-
-                }else{
-                    $lamp_model== 500;
-
-                }
-            
+             
 
                 if ($element[4]=='off'){
                     $lamp_on==0;
